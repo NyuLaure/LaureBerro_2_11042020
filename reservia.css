@@ -130,7 +130,7 @@ header h2 {
 
 .boutonfiltre {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
   
 
 }
@@ -163,8 +163,7 @@ a:hover h4 {
 }
 .filtres {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: 100%;
 }
 
 .filtres h1 {
@@ -218,7 +217,7 @@ a:hover h4 {
     flex-wrap: wrap;
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 70%;
+    width: 63%;
     padding-bottom: 20px;
    
    
@@ -237,9 +236,9 @@ a:hover h4 {
     width: 28%;
     height: 200px;
     background:white;
-    border: 1 solid black;
     border-radius: 13px;
-    margin: 23px
+    margin: 23px;
+    flex: 25%;
 
 }
 .article1 a {
@@ -274,7 +273,6 @@ h2:hover {
     flex-direction: column;
     background: #F2F2F2;
     border-radius: 20px;
-    margin-left: 40px;
     width: 33%;
 
 }
@@ -462,4 +460,15 @@ footer h1 {
 
 .footerglobal a:hover {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 768px){
+
+body {
+    margin: 0 auto;
+    width: 95%;
+   
+}
+
+
 }
