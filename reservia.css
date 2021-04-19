@@ -481,23 +481,91 @@ footer h1 {
     max-width: 100%;
 }
 
-.barre-recherche {
+
+.entete {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.liens {
+    width: 100%;
+    height: 70px;
+}
+.ancres { 
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin: 0;
+}
+.ancres a {
+    padding: 10px 0 20px 0;
+}
+.bouton_ancre_hebergements {
+    width: 50%;
+    text-align: center;
+}
+.bouton_ancre_activites {
+    width: 50%;
+    text-align: center;
+}
+.ancres a:hover {
+    color: #0065FC;
+    border-bottom: #0065FC solid 3px;
+    padding-bottom: 20px;
+    border-top: none;
+}
+.btn-sinscrire {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+.logoreservia {
+    margin: 30px 0 10px 30px;
+}
+header h1 {
+    width: 80%;
+    text-align: justify;
+    font-size: 1.4em;
+    margin-left: 15px;
+}
+header p, h3 {
+    margin-left: 15px;
+}
+
+
+
+
+.barre-recherche {
+    width: 100%;
+    margin-top: 20px;
+}
+.recherche {
+    width: 90%;
+}
+.map {
+    width: 80px;
+}
+.recherche p {
+    width: 200px;
+    margin: 0;
+}
+.boutonrecherche {
+   
+}
+
+
+.filtres { 
+    display: flex;
+    flex-direction: column;
+}
+.boutonfiltre {
     margin: 0;
     width: 100%;
 }
-.recherche {
-    width: 100%;
-
+.boutonfiltre a {
+    margin: 0 5px 10px 5px;
 }
-.liens {
-    display: none;
-}
-
-
-
-
 
 .hotel {
 display: flex;
@@ -521,7 +589,7 @@ margin-bottom: 0;
     margin-top: 0;
 }
 .article1 {
-    width: 95%;
+    width: 98%;
     height:210px ;
     flex: none;
     border-radius: 20px;
