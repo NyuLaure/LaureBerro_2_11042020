@@ -760,5 +760,42 @@ footer {
 .act2 img {
     object-position: center;
 }
+.activites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+}
+.act1 {
+    width: 45%;
+    order: 1;
+    margin-left: 20px;
+    
+}
+.act2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    order: 2;
+    height: 230px;
+}
+
+.fort {
+    width: 45%;
+}
+.iles {
+    width: 45%;
+    margin-left: 25px;
+}
+.notredame {
+    width: 45%;
+}
+.parc {
+    width: 45%;
+    margin-left: 25px;
+}
+
+
 }
 
