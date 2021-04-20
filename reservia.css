@@ -57,7 +57,6 @@ body { background: white;
 .logoreservia { 
     width: 100px;
     height: 45px;
-    padding: auto;
 }
 
 header h1 {
@@ -89,7 +88,7 @@ header h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #0065FC;
+    border: 1px solid ;
     border-radius: 0 15px 15px 0;
     font-size: 1.1em;
 }
@@ -102,12 +101,12 @@ header h2 {
 
 .map {
     background: #F2F2F2;
-    height: 48px;
+    height: 49px;
     width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #F2F2F2;
+    border: 1px solid none;
     border-radius:15px 0 0 15px ;
 }
 #Bnrecherche { 
@@ -543,7 +542,7 @@ header p, h3 {
 }
 .map {
     width: 90px;
-    height: 47px;
+    height: 49px;
 }
 .recherche p {
     width: 240px;
@@ -563,12 +562,12 @@ header p, h3 {
 #loupe {
     background: #0065FC;
     color: white;
-    height:47px ;
+    height:48px ;
     width: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #0065FC;
+    border: 1px solid ;
     border-radius: 15px;
     font-size: 1.1em; 
 }
