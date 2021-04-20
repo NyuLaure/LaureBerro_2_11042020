@@ -164,11 +164,6 @@ a:hover h4 {
     width: 100%;
 }
 
-.filtres h1 {
-    font-size: 1.2em;
-   
-}
-
 .fa-info {
     color: #0065FC;
     border: solid 1px #F2F2F2;
@@ -228,16 +223,15 @@ a:hover h4 {
    
    
 }
-.hebergements_marseille h1 {
+.hebergements_marseille h2 {
     width: 100%;
     margin: 42px 30px 0 30px;
+    font-size: 130%;
 }
-
-.hebergements_marseille h2 {
+.hebergements_marseille h5 {
     font-size: 1em;
     margin: 0 30px 30px 30px;
 }
-
 .article_container { 
     display: flex;
     width: 100%;
@@ -256,10 +250,10 @@ a:hover h4 {
 .article1 a {
     width: 95%;
 }
-.article1 h1{
+.article1 h3{
     font-size: medium;
     margin: 0px;
-     margin-left: 13px;
+    margin-left: 13px;
 }
 
 .article1 img {
@@ -275,7 +269,7 @@ a:hover h4 {
     margin: 5px 0 13px 13px
 }
 
-h2:hover {
+h5:hover {
     color: #0065FC;
 }
 .populaires {
@@ -292,6 +286,7 @@ h2:hover {
     justify-content: space-between;
     align-items: center;
     margin: 22px 30px 5px 30px;
+    font-size: 0.9em;
 }
 
 .fa-chart-line {
@@ -317,7 +312,7 @@ h2:hover {
     object-fit: cover;
 }
 
-.article2 h1{
+.article2 h3{
     font-size: medium;
     margin-top: 20px;
     text-align: left;
