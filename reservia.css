@@ -475,7 +475,7 @@ footer h1 {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 1260px){
+@media only screen and (max-width: 1024px){
 
 .global {
     margin: 0 auto;
@@ -737,3 +737,28 @@ footer {
     height: 30%;
 }
 }
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+.article_container {
+    display: flex;
+}
+.hebergements_marseille {
+    height: 900px;
+}
+
+.article1 a img {
+    object-position: center;
+}
+.article1 {
+    width: 48%;
+}
+.act1 img {
+    object-position: center;
+}
+
+.act2 img {
+    object-position: center;
+}
+}
+
