@@ -208,7 +208,7 @@ a:hover h4 {
     font-weight: bold;
 }
 
-.hotel a:hover h1 {
+.hotel a:hover h3 {
     font-size:110% ;
     font-weight: bold;
 }
@@ -592,11 +592,13 @@ display: flex;
 flex-direction: column;
 margin-bottom: 0;
 }
-.hotel a:hover {
+
+.hotel a:hover p {
    font-size:initial;
    font-weight: normal;
 }
-.hotel a:hover h1 {
+
+.hotel a:hover h3 {
     font-size: initial;
     font-weight: normal;
 }
@@ -648,8 +650,8 @@ margin-bottom: 0;
 height: 93%;
 }
 
-.article2 h1{
-margin-bottom: 0;
+.article2 h3{
+margin: 15px 0 0 0;
 font-size: 0.85em;
 }
 
