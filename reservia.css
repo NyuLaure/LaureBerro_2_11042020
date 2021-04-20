@@ -10,15 +10,7 @@ body { background: white;
     font-family: "raleway";
     color: black;
 }
-.hotel a:hover p{
-    font-size:90% ;
-    font-weight: bold;
-}
 
-.hotel a:hover h1 {
-     font-size:110% ;
-    font-weight: bold;
-}
 
 .entete {
     display: flex;
@@ -157,7 +149,10 @@ header h2 {
     background-color: #DEEBFF;
     padding: 20px;
    }
-   
+.fa-child {
+    width: 17px;
+}
+
 .textfiltre {
     margin: 20px;
 }
@@ -180,6 +175,7 @@ a:hover h4 {
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
+     width: 10px;
 }
 .fa-star {
     margin-top: 10px;
@@ -199,7 +195,6 @@ a:hover h4 {
     margin: 20px 0 20px 0;
 }
 
-
 .hotel {
     display: flex;
     flex-direction: row;
@@ -214,7 +209,15 @@ a:hover h4 {
     color: black;
     text-decoration: none;
 }
+.hotel a:hover p{
+    font-size:90% ;
+    font-weight: bold;
+}
 
+.hotel a:hover h1 {
+    font-size:110% ;
+    font-weight: bold;
+}
 .hebergements_marseille {
     display: flex;
     flex-wrap: wrap;
@@ -529,7 +532,7 @@ footer h1 {
 header h1 {
     width: 80%;
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin: 30px 0 15px 15px;
 }
 header p, h3 {
@@ -544,11 +547,11 @@ header p, h3 {
     width: 95%;
 }
 .map {
-    width: 50px;
+    width: 90px;
     height: 47px;
 }
 .recherche p {
-    width: 260px;
+    width: 240px;
     margin: 0;
 }
 .boutonrecherche {
@@ -566,7 +569,7 @@ header p, h3 {
     background: #0065FC;
     color: white;
     height:47px ;
-    width: 50px;
+    width: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -586,11 +589,22 @@ header p, h3 {
 .boutonfiltre a {
     margin: 0 5px 10px 5px;
 }
+.fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog{
+padding: 15px;
+}
 
 .hotel {
 display: flex;
 flex-direction: column;
 margin-bottom: 0;
+}
+.hotel a:hover {
+   font-size:initial;
+   font-weight: normal;
+}
+.hotel a:hover h1 {
+    font-size: initial;
+    font-weight: normal;
 }
 
 .hebergements_marseille {
@@ -624,14 +638,31 @@ margin-bottom: 0;
     justify-content: center;
     align-items: center;
 }
-.article1 p {
+.article1 .fa-star {
+    margin-top:5px;
 }
 .populaires {
     order: 1;
     width: 100%;
     border-radius: 0%;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
+.article2 {
+    height: 145px;
+}
+.article2 img {
+height: 93%;
+}
+
+.article2 h1{
+margin-bottom: 0;
+font-size: 0.85em;
+}
+
+.article2 .fa-star {
+margin-top: 35px;
+}
+
 #activites-ancre {
     margin: 0;
 }
