@@ -210,10 +210,7 @@ a:hover h4 {
     font-weight: bold;
 }
 
-.hotel a:hover h3 {
-    font-size:110% ;
-    font-weight: bold;
-}
+
 .hebergements_marseille {
     display: flex;
     flex-wrap: wrap;
@@ -664,13 +661,11 @@ font-size: 0.85em;
 .article2 .fa-star {
 margin-top: 35px;
 }
-.article2 a:hover h3 {
-    font-size: 0.87em;
-}
+
 .article2 a:hover p {
-    font-size: 0.8em;
     font-weight: bold;
-}
+    font-size: 0.8em;
+   }
 
 #activites-ancre {
     margin: 0 0 0 15px;
