@@ -116,7 +116,7 @@ header h2 {
     width: 230px;
     margin: 0;
     font-size: 1.2em;
-    padding-left: 5px;
+    padding-left: 15px;
    
 }
 #loupe {
@@ -297,6 +297,7 @@ h5:hover {
     width: 85%;
     height:40%;
     background:white;
+    box-shadow : 0 0 10px rgb(194, 190, 190);
     border-radius: 13px;
     margin: 0 25px 25px 25px;
     position: relative;
@@ -456,8 +457,8 @@ footer p {
     height: 100%;
 }
 
-footer h1 {
-    font-size: 1.09em;
+footer h4 {
+    font-size: 1.1em;
     margin: 20px 0 20px 40px;
 }
 
@@ -668,7 +669,7 @@ margin-top: 35px;
    }
 
 #activites-ancre {
-    margin: 0 0 0 15px;
+    margin: 0 0 0 25px;
 }
 .activites {
     display: flex;
@@ -754,7 +755,9 @@ footer {
 .hebergements_marseille {
     height: 900px;
 }
-
+#hebergements-ancre {
+    margin-left: 15px;
+}
 .article1 a img {
     object-position: center;
 }
@@ -767,6 +770,10 @@ footer {
 
 .act2 img {
     object-position: center;
+}
+
+#activites-ancre {
+    margin-left: 30px;
 }
 .activites {
     display: flex;
@@ -787,6 +794,7 @@ footer {
     width: 100%;
     order: 2;
     height: 230px;
+    margin-bottom: 20px;
 }
 
 .fort {
