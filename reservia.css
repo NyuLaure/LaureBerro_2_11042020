@@ -620,6 +620,7 @@ margin-bottom: 0;
 }
 #hebergements-ancre {
     font-size: 1.2em;
+    margin-left: 20px;
 }
 .article1 {
     width: 98%;
@@ -669,7 +670,7 @@ margin-top: 35px;
    }
 
 #activites-ancre {
-    margin: 0 0 0 25px;
+    margin: 0 0 0 30px;
 }
 .activites {
     display: flex;
