@@ -625,7 +625,7 @@ margin-bottom: 0;
     flex: none;
     border-radius: 20px;
     box-shadow: 2px 2px 15px #F2F2F2;
-    margin: 7px;
+    margin: 4px;
 }
 .article1 img {
     width: 100%;
@@ -803,4 +803,5 @@ footer {
     width: 45%;
     margin-left: 25px;
 }
+
 }
