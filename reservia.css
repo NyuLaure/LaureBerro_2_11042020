@@ -737,7 +737,7 @@ footer {
 .footer1 {
     height: 32%;
 }
-
+}
 
 @media only screen and (min-width:768px) and (max-width:1260px) {
 
@@ -776,9 +776,9 @@ footer {
 }
 .act1 {
     width: 45%;
-    order: 1;
-    
+    order: 1; 
 }
+
 .act2 {
     display: flex;
     flex-direction: row;
@@ -803,6 +803,4 @@ footer {
     width: 45%;
     margin-left: 25px;
 }
-
 }
-
