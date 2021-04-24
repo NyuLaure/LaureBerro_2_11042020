@@ -15,43 +15,51 @@ body { background: white;
 .entete {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+}
+
+.entete img {
+    padding-top: 40px;
 }
 
 .liens  {
     height: 90px;
     width: 34%;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
 }
 .ancres {
-    width: 100%;
+    list-style-type: none;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     margin-right: 25px;
 }
-.liens a {
+.ancres li {
+    padding: 40px 0 0 0;
+}
+.ancres a {
     text-decoration: none;
     color: grey ;
-    font-size: 1em;
     padding: 40px 30px 0 30px;
 }
+
 .ancres a:hover { 
     color: #0065FC;
     border-top: #0065FC solid 1px;
-    padding-top: 40px;
+    cursor: pointer;
     
+}
+.btn-sinscrire {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
 }
 .btn-sinscrire a {
     color: #0065FC;
+    text-decoration: none;
     font-weight: bold;
     font-size: 1em;
 }
 .btn-sinscrire a:hover {
     font-style: italic;
+    text-decoration: none;
 }
 
 .logoreservia { 
@@ -490,20 +498,25 @@ footer h4 {
     align-items: flex-start;
     position: relative;
 }
+
 .liens {
     width: 100%;
     height: 70px;
 }
 .ancres { 
     display: flex;
-    flex-direction: row;
     width: 100%;
     margin: 0;
+    padding-left: 0;
 }
-.ancres a {
+
+.ancres li{
+    width: 50%;
+    text-align: center;
     padding: 10px 0 20px 0;
     border-bottom: 3px solid #F2F2F2;
 }
+
 .bouton_ancre_hebergements {
     width: 50%;
     text-align: center;
@@ -512,19 +525,24 @@ footer h4 {
     width: 50%;
     text-align: center;
 }
-.ancres a:hover {
+.ancres li:hover {
     color: #0065FC;
     border-bottom: #0065FC solid 3px;
     border-top: none;
     padding-bottom: 20px ;
 }
+.ancres a:hover {
+    border-top: none;
+    color: #0065FC;
+}
 .btn-sinscrire {
     position: absolute;
-    top: 50px;
-    right: 10px;
+    top: 60px;
+    right: 15px;
+    padding-top: 0;
 }
 .logoreservia {
-    margin: 30px 0 10px 30px;
+    margin: 0px 0 30px 30px;
 }
 header h1 {
     width: 80%;
@@ -597,9 +615,9 @@ header p, h3 {
 }
 
 .hotel {
-display: flex;
-flex-direction: column;
-margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
 }
 
 
@@ -653,12 +671,12 @@ height: 93%;
 }
 
 .article2 h3{
-margin: 15px 0 0 0;
-font-size: 0.85em;
+    margin: 15px 0 0 0;
+    font-size: 0.85em;
 }
 
 .article2 .fa-star {
-margin-top: 35px;
+    margin-top: 35px;
 }
 
 .article2 a:hover p {
