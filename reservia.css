@@ -11,6 +11,7 @@ body { background: white;
     color: black;
 }
 
+/* En tête avec logo, nav et bouton s'inscrire */ 
 
 .entete {
     display: flex;
@@ -66,6 +67,7 @@ body { background: white;
     width: 100px;
     height: 45px;
 }
+/* Titres et barre de recherche */ 
 
 header h1 {
     font-size: 1.4em;
@@ -130,12 +132,11 @@ header h2 {
 #loupe {
  display: none;
 }
+/* Filtres */ 
 
 .boutonfiltre {
     display: flex;
     flex-wrap: wrap;
-  
-
 }
 
 .boutonfiltre a { 
@@ -157,7 +158,8 @@ header h2 {
     background-color: #DEEBFF;
     padding: 20px;
     margin-left: -5px;
-   }
+}
+
 .fa-child {
     width: 17px;
 }
@@ -185,19 +187,13 @@ a:hover h4 {
     margin-top: 10px;
 }
 
-.etoilebleu {
-    color: #0065FC;
-}
-
-.etoilegrise {
-    color: #F2F2F2;
-}
 .info {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 20px 0 20px 0;
 }
+/* Debut de la div avec les hebergements */ 
 
 .hotel {
     display: flex;
@@ -218,6 +214,14 @@ a:hover h4 {
     font-weight: bold;
 }
 
+.etoilebleu {
+    color: #0065FC;
+}
+
+.etoilegrise {
+    color: #F2F2F2;
+}
+/* Hotels Marseille */ 
 
 .hebergements_marseille {
     display: flex;
@@ -226,9 +230,8 @@ a:hover h4 {
     border-radius: 20px;
     width: 63%;
     padding-bottom: 20px;
-   
-   
 }
+
 .hebergements_marseille h2 {
     width: 100%;
     margin: 42px 30px 0 30px;
@@ -275,10 +278,13 @@ a:hover h4 {
     font-size: 0.8em;
     margin: 5px 0 13px 13px
 }
+/* h5 : bouton Afficher plus après les hotels */ 
 
 h5:hover {
     color: #0065FC;
 }
+/* Hotels populaires */ 
+
 .populaires {
     display: flex;
     flex-direction: column;
@@ -339,6 +345,8 @@ h5:hover {
     margin-bottom: 10px;
 
 }
+/* Activités */ 
+
 #activites-ancre { 
     font-size: 140%;
      margin: 60px 0 5px 0 ;
@@ -439,6 +447,9 @@ h5:hover {
 .parc img {
     height: 74%;
 }
+
+/* Footer */ 
+
 .footerglobal {
     height: 200px;
     width: 73%;
@@ -485,12 +496,13 @@ footer h4 {
 }
 
 @media only screen and (max-width: 1260px){
+/* Version mobile */ 
 
 .global {
     margin: 0 auto;
     max-width: 100%;
 }
-
+/* En tête */ 
 
 .entete {
     display: flex;
@@ -597,6 +609,7 @@ header p, h3 {
     color: #0065FC;
     cursor: pointer;
 }
+/* Filtres */ 
 
 .filtres { 
     display: flex;
@@ -613,14 +626,14 @@ header p, h3 {
 .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog{
     padding: 15px;
 }
+/* Global hotel */ 
 
 .hotel {
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
 }
-
-
+/* Hebergements Marseille */ 
 
 .hebergements_marseille {
     flex-wrap: wrap;
@@ -657,6 +670,8 @@ header p, h3 {
 .article1 .fa-star {
     margin-top:5px;
 }
+/* Populaires */ 
+
 .populaires {
     order: 1;
     width: 100%;
@@ -683,6 +698,7 @@ height: 93%;
     font-weight: bold;
     font-size: 0.8em;
    }
+/* Activités */ 
 
 #activites-ancre {
     margin: 0 0 0 30px;
@@ -741,6 +757,7 @@ height: 93%;
 .parc img {
     height: 75%;
 }
+/* Footer */ 
 
 footer {
     height: 550px;
@@ -758,6 +775,8 @@ footer {
 }
 
 @media only screen and (min-width:768px) and (max-width:1260px) {
+/* Version tablette */ 
+/* Hebergements */ 
 
 .article_container {
     display: flex;
@@ -781,6 +800,7 @@ footer {
 .act2 img {
     object-position: center;
 }
+/* Ativités */ 
 
 #activites-ancre {
     margin-left: 30px;

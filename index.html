@@ -11,7 +11,7 @@
 <body>
     <div class="global">
         <header>
-
+            <!-- En tête avec logo, ancres et bouton s'inscrire -->
             <div class="entete">
                 <img src="images/logo/Reservia@3x.png" alt="logoreservia" class="logoreservia">
                 <nav class="liens">
@@ -25,7 +25,7 @@
 
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-                
+            <!-- Bouton de recherche de la ville -->    
             <div class="barre-recherche">
                 <div class="recherche">
                     <div class="map"> <i class="fas fa-map-marker-alt"></i></div>
@@ -36,7 +36,7 @@
                     <i class="fas fa-search" id="loupe"></i>
                 </div>
             </div>
-
+            <!-- Boutons filtres -->
             <div class="filtres">
                 <h3>Filtres</h3>
                 <div class="boutonfiltre">
@@ -53,8 +53,9 @@
             </div>
 
         </header>
-
+        <!-- Tous les hotels -->
         <main class="hotel">
+            <!-- Hebergements Marseille, chacun dans une div : article1 -->
             <article class="hebergements_marseille" >
                 <h2 id="hebergements-ancre">Hébergements à Marseille</h2>
                 <div class="article_container">
@@ -158,6 +159,7 @@
             </article> 
 
             <article class="populaires">
+                <!-- Liste des hotels populaires, chacun dans une div : article2 -->
                 <div class="titre-populaires">
                     <h2>Les plus populaires</h2>
                     <i class="fas fa-chart-line"></i>
@@ -218,10 +220,10 @@
                     </a>
                 </div>    
             </article>
-        </main> 
+        </main> <!-- Fin de la partie hotel -->
              
         <h2 id="activites-ancre">Activités à Marseille</h2>
-
+<!-- Activités à Marsilles, les grandes images dans div act1, les petites dans une div commune act2 -->
         <aside class="activites">
             <div class="act1">
                 <a href="#">
@@ -267,8 +269,9 @@
                 </div>
             </div>
         </aside> 
-   </div>
+   </div> <!-- Fin de la div global -->
     <footer>
+        <!-- Footer hors div global pour la marge, chaque section dans une div footer1 -->
         <div class="footerglobal">
             <div class="footer1">
                 <h4>A propos</h4>
