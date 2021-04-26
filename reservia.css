@@ -19,11 +19,10 @@ body { background: white;
 }
 
 .entete img {
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 .liens  {
-    height: 90px;
     width: 34%;
     display: flex;
 }
@@ -44,7 +43,6 @@ body { background: white;
 .ancres a:hover { 
     color: #0065FC;
     border-top: #0065FC solid 1px;
-    cursor: pointer;
     
 }
 .btn-sinscrire {
@@ -221,7 +219,7 @@ a:hover h4 {
 .etoilegrise {
     color: #F2F2F2;
 }
-/* Hotels Marseille */ 
+/* Hebergements Marseille */ 
 
 .hebergements_marseille {
     display: flex;
@@ -278,12 +276,12 @@ a:hover h4 {
     font-size: 0.8em;
     margin: 5px 0 13px 13px
 }
-/* h5 : bouton Afficher plus après les hotels */ 
+/* h5 : bouton "Afficher plus" après les hebergements */ 
 
 h5:hover {
     color: #0065FC;
 }
-/* Hotels populaires */ 
+/* Hebergements populaires */ 
 
 .populaires {
     display: flex;
@@ -451,8 +449,7 @@ h5:hover {
 /* Footer */ 
 
 .footerglobal {
-    height: 200px;
-    width: 73%;
+    width: 92%;
     padding-top: 15px;
     display: flex;
     flex-direction: row;
@@ -460,16 +457,15 @@ h5:hover {
 }
 footer { 
     
-    height: 200px;
     width: 100%;
-      background: #F2F2F2;
+    background: #F2F2F2;
 }
 
 footer a {
     text-decoration: none;
     color: black;
     font-size: 0.95em;
-    margin-left: 40px;
+    margin: 0 0 15px 40px; 
 }
 
 footer p {
@@ -484,12 +480,9 @@ footer h4 {
 .footer1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 80%;
+    width: 100%;
 }
-.ghost {
-    color: #F2F2F2;
-}
+
 
 .footerglobal a:hover {
     font-weight: bold;
@@ -510,52 +503,44 @@ footer h4 {
     align-items: flex-start;
     position: relative;
 }
-
+.logoreservia {
+    margin: 0px 0 0 30px;
+}
 .liens {
     width: 100%;
-    height: 70px;
+ 
 }
 .ancres { 
     display: flex;
     width: 100%;
+    padding: 15px 0 0 0;
     margin: 0;
-    padding-left: 0;
 }
-
-.ancres li{
-    width: 50%;
-    text-align: center;
-    padding: 10px 0 20px 0;
+.ancres li {
+    width: 100%;
+   padding: 0;
+}
+.ancres a {
+    width: 100%;
     border-bottom: 3px solid #F2F2F2;
+    display: block;
+    padding: 20px 0 20px 0;
+    text-align: center;
 }
 
-.bouton_ancre_hebergements {
-    width: 50%;
-    text-align: center;
-}
-.bouton_ancre_activites {
-    width: 50%;
-    text-align: center;
-}
-.ancres li:hover {
-    color: #0065FC;
-    border-bottom: #0065FC solid 3px;
-    border-top: none;
-    padding-bottom: 20px ;
-}
 .ancres a:hover {
     border-top: none;
     color: #0065FC;
+    border-bottom: #0065FC solid 3px;
 }
+
 .btn-sinscrire {
     position: absolute;
     top: 60px;
     right: 15px;
     padding-top: 0;
 }
-.logoreservia {
-    margin: 0px 0 30px 30px;
-}
+
 header h1 {
     width: 80%;
     text-align: justify;
@@ -609,7 +594,7 @@ header p, h3 {
     color: #0065FC;
     cursor: pointer;
 }
-/* Filtres */ 
+/* Filtres et info */ 
 
 .filtres { 
     display: flex;
@@ -626,7 +611,11 @@ header p, h3 {
 .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog{
     padding: 15px;
 }
-/* Global hotel */ 
+.info {
+    margin: 0 0 20px 0;
+}
+
+/* Fin Header debut : Hebergements */ 
 
 .hotel {
     display: flex;
@@ -760,7 +749,6 @@ height: 93%;
 /* Footer */ 
 
 footer {
-    height: 550px;
     font-size: 1em;
 }
 .footerglobal {
@@ -769,13 +757,16 @@ footer {
     flex-direction: column;
     justify-content: space-around;
 }
-.footer1 {
-    height: 32%;
-}
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1260px) {
 /* Version tablette */ 
+
+.ancres a {
+    padding: 40px 0 40px 0;
+}
+
 /* Hebergements */ 
 
 .article_container {
@@ -840,6 +831,26 @@ footer {
 .parc {
     width: 45%;
     margin-left: 25px;
+}
+
+/* Footer */ 
+
+
+footer {
+    font-size: 0.92em;
+}
+.footerglobal {
+    width: 95%;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+footer a {
+    margin-bottom: 20px;
+}
+
+footer a:hover {
+    margin-left: 33px;
 }
 
 }
